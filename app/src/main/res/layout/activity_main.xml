@@ -15,10 +15,10 @@
         android:id="@+id/tv_x"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:text="가로 해상도"
         android:textColor="@color/black"
-        android:textSize="60sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="@+id/tv_inch"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/tv_inch"
@@ -28,9 +28,9 @@
         android:id="@+id/tv_y"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:text="세로 해상도"
-        android:textSize="60sp"
+        android:textSize="50sp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/tv_x"
         app:layout_constraintStart_toStartOf="@+id/tv_x"
@@ -43,7 +43,7 @@
         android:layout_marginTop="40dp"
         android:text="모델명"
         android:textColor="@color/black"
-        android:textSize="60sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,38 +53,63 @@
         android:id="@+id/tv_inch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:text="인치"
         android:textColor="@color/black"
-        android:textSize="60sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="@+id/tv_name"
         app:layout_constraintStart_toStartOf="@+id/tv_name"
         app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+
+    <TextView
+        android:id="@+id/tv_real_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="실제 사용 세로 면적"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_y"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/tv_y"
+        app:layout_constraintTop_toBottomOf="@+id/tv_y" />
 
     <TextView
         android:id="@+id/tv_dpi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:text="DPI"
         android:textColor="@color/black"
-        android:textSize="60sp"
-        app:layout_constraintEnd_toEndOf="@+id/tv_y"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/tv_y"
-        app:layout_constraintTop_toBottomOf="@+id/tv_y" />
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_real_y"
+        app:layout_constraintStart_toStartOf="@+id/tv_real_y"
+        app:layout_constraintTop_toBottomOf="@+id/tv_real_y" />
 
+    <TextView
+        android:id="@+id/tv_sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Smallest Width"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_dpi"
+        app:layout_constraintStart_toStartOf="@+id/tv_dpi"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dpi" />
 
     <TextView
         android:id="@+id/tv_sw_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:text="SW DP"
-        android:layout_marginTop="20dp"
         android:textColor="@color/black"
-        android:textSize="60sp"
-        app:layout_constraintEnd_toEndOf="@+id/tv_dpi"
-        app:layout_constraintStart_toStartOf="@+id/tv_dpi"
-        app:layout_constraintTop_toBottomOf="@+id/tv_dpi" />
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_sw"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/tv_sw"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sw" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
