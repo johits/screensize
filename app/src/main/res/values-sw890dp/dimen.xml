@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="MODEL"> D2_d </string>
+    <dimen name="dp_px_1">0.83dp</dimen>
+    <dimen name="dp_px_200">166dp</dimen>
     <dimen name="dp_px_300">206.67dp</dimen>
+    <dimen name="dp_px_924">766.92dp</dimen>
     <dimen name="dp_px_1024">819.2dp</dimen>
     <dimen name="dp_px_1080">842.4dp</dimen>
     <dimen name="dp_px_1200">936dp</dimen>

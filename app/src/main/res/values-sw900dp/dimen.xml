@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="dp_px_300">206.67dp</dimen>
-    <dimen name="dp_px_1024">819.2dp</dimen>
-    <dimen name="dp_px_1080">842.4dp</dimen>
-    <dimen name="dp_px_1200">936dp</dimen>
-    <dimen name="dp_px_1250">1000.15dp</dimen>
-    <dimen name="dp_px_1920">1593.6dp</dimen>
-</resources>

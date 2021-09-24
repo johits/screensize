@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="MODEL"> D2_mini </string>
     <dimen name="dp_px_1">0.78dp</dimen>
     <dimen name="dp_px_2">1.7dp</dimen>
     <dimen name="dp_px_3">2.55dp</dimen>
@@ -8,10 +9,12 @@
     <dimen name="dp_px_10">7.8dp</dimen>
     <dimen name="dp_px_50">39dp</dimen>
     <dimen name="dp_px_100">78dp</dimen>
+    <dimen name="dp_px_200">156dp</dimen>
     <dimen name="dp_px_300">234dp</dimen>
     <dimen name="dp_px_310">241.8dp</dimen>
     <dimen name="dp_px_500">390dp</dimen>
     <dimen name="dp_px_800">624dp</dimen>
+    <dimen name="dp_px_924">720.72dp</dimen>
     <dimen name="dp_px_810">631.8dp</dimen>
     <dimen name="dp_px_1024">819.2dp</dimen>
     <dimen name="dp_px_1080">842.4dp</dimen>
