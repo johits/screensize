@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="MODEL"> K2_mini </string>
-    <dimen name="dp_px_1">0.88dp</dimen>
-    <dimen name="dp_px_200">176dp</dimen>
-    <dimen name="dp_px_300">264dp</dimen>
-    <dimen name="dp_px_924">813.12dp</dimen>
-    <dimen name="dp_px_1024">901.12dp</dimen>
-    <dimen name="dp_px_1080">950.4dp</dimen>
-    <dimen name="dp_px_1200">1056dp</dimen>
-    <dimen name="dp_px_1250">1100dp</dimen>
-    <dimen name="dp_px_1920">1689.6dp</dimen>
+    <dimen name="dp_px_1">0.89dp</dimen>
+    <dimen name="dp_px_200">178dp</dimen>
+    <dimen name="dp_px_300">267dp</dimen>
+    <dimen name="dp_px_924">822.36dp</dimen>
+    <dimen name="dp_px_1024">911.36dp</dimen>
+    <dimen name="dp_px_1080">961.2dp</dimen>
+    <dimen name="dp_px_1200">1068dp</dimen>
+    <dimen name="dp_px_1250">1112.5dp</dimen>
+    <dimen name="dp_px_1920">1708.8dp</dimen>
 </resources>
