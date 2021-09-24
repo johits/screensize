@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="dp_px_1">0.7dp</dimen>
-    <dimen name="dp_px_2">1.4dp</dimen>
-    <dimen name="dp_px_3">2.1dp</dimen>
-    <dimen name="dp_px_4">2.8dp</dimen>
-    <dimen name="dp_px_5">3.5dp</dimen>
-</resources>

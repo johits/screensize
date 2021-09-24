@@ -13,6 +13,8 @@
     <dimen name="dp_px_500">500dp</dimen>
     <dimen name="dp_px_800">800dp</dimen>
     <dimen name="dp_px_810">810dp</dimen>
+    <dimen name="dp_px_1024">1024dp</dimen>
+    <dimen name="dp_px_1080">1080dp</dimen>
     <dimen name="dp_px_1200">1200dp</dimen>
     <dimen name="dp_px_1250">1250dp</dimen>
     <dimen name="dp_px_1920">1920dp</dimen>

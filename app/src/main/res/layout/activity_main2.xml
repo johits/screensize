@@ -17,15 +17,17 @@
             android:layout_height="800dp"
             android:text="300dp \n800dp"
             android:textColor="@color/white"
+            android:visibility="gone"
             android:textSize="50sp"
             android:background="@color/design_default_color_primary"/>
 
         <TextView
             android:layout_width="@dimen/dp_px_300"
-            android:layout_height="@dimen/dp_px_800"
-            android:text="dimen300 \ndimen800"
+            android:layout_height="@dimen/dp_px_1024"
+            android:text="dimen300\ndimen1024"
             android:textColor="@color/white"
-            android:textSize="50sp"
+            android:textSize="40sp"
+            android:gravity="bottom"
             android:background="@color/black"/>
 
         <LinearLayout
@@ -68,6 +70,7 @@
         android:text="dimen1920\ndimen100"
         android:textColor="@color/white"
         android:gravity="right"
+        android:visibility="gone"
         android:textSize="40sp"/>
 
 
