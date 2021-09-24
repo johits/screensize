@@ -1,5 +1,6 @@
 package com.example.screentest
 
+import android.content.Intent
 import android.graphics.Point
 import android.os.Build
 import android.os.Bundle
@@ -46,6 +47,11 @@ class MainActivity : AppCompatActivity() {
             tvSw.text = "smallest Width: $width"
             tvSwResult.text =
                 "Smallest Width DP: ${String.format("%.1f", width / (dm.densityDpi / 160.0))}"
+        }
+        binding.tvName.setOnClickListener {
+            val intent = Intent(this,MainActivity2::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }
