@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         windowManager.defaultDisplay.getMetrics(dm)
 //        val width = dm.widthPixels.coerceAtMost(dm.heightPixels) 원래코드
         val width = widthx.coerceAtMost(heighty)
-
+        val swWidth = dm.widthPixels.coerceAtMost(dm.heightPixels)
         //인치 구하기
         val x = Math.pow((dm.widthPixels / dm.xdpi).toDouble(), 2.0)
         val y = Math.pow((dm.heightPixels / dm.ydpi).toDouble(), 2.0)
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             tvY.text = "높이: $heighty px (${String.format("%.1f",dpHeight)} dp)"
             tvRealY.text = "실제 사용 높이: ${dm.heightPixels}"
             tvDpi.text = "DPI: ${dm.densityDpi} dpi"
-            tvSw.text = "smallest Width: $width"
+            tvSw.text = "smallest Width: $swWidth"
             tvSwResult.text =
                 "Smallest Width DP: ${String.format("%.1f", width / (dm.densityDpi / 160.0))}"
         }
