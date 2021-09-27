@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MODEL"> D2_d </string>
+    <dimen name="dp_px_1">1dp</dimen>
+    <dimen name="dp_px_2">2dp</dimen>
+    <dimen name="dp_px_3">3dp</dimen>
+    <dimen name="dp_px_4">4dp</dimen>
+    <dimen name="dp_px_5">5dp</dimen>
+    <dimen name="dp_px_10">10dp</dimen>
+    <dimen name="dp_px_50">50dp</dimen>
+    <dimen name="dp_px_100">100dp</dimen>
+    <dimen name="dp_px_200">200dp</dimen>
+    <dimen name="dp_px_300">300dp</dimen>
+    <dimen name="dp_px_310">310dp</dimen>
+    <dimen name="dp_px_500">500dp</dimen>
+    <dimen name="dp_px_800">800dp</dimen>
+    <dimen name="dp_px_810">810dp</dimen>
+    <dimen name="dp_px_924">924dp</dimen>
+    <dimen name="dp_px_1024">1024dp</dimen>
+    <dimen name="dp_px_1080">1080dp</dimen>
+    <dimen name="dp_px_1200">1200dp</dimen>
+    <dimen name="dp_px_1250">1250dp</dimen>
+    <dimen name="dp_px_1920">1920dp</dimen>
+</resources>

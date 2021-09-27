@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="MODEL"> K2_mini </string>
-    <dimen name="dp_px_1">0.89dp</dimen>
+    <string name="MODEL"> T2_s </string>
+    <dimen name="dp_px_1">0.69dp</dimen>
     <dimen name="dp_px_200">178dp</dimen>
     <dimen name="dp_px_300">267dp</dimen>
     <dimen name="dp_px_924">822.36dp</dimen>

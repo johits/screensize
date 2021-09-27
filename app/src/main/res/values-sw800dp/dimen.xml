@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MODEL"> D2_mini </string>
+    <dimen name="dp_px_1">0.66dp</dimen>
+    <dimen name="dp_px_200">132dp</dimen>
+    <dimen name="dp_px_300">198dp</dimen>
+    <dimen name="dp_px_924">609.84dp</dimen>
+    <dimen name="dp_px_1024">675.84dp</dimen>
+    <dimen name="dp_px_1080">712.8dp</dimen>
+    <dimen name="dp_px_1200">792dp</dimen>
+    <dimen name="dp_px_1250">825dp</dimen>
+    <dimen name="dp_px_1920">1267.2dp</dimen>
+</resources>
