@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="MODEL"> D2_s </string>
-    <dimen name="dp_px_1">0.68dp</dimen>
-    <dimen name="dp_px_200">136dp</dimen>
-    <dimen name="dp_px_300">204dp</dimen>
-    <dimen name="dp_px_924">628.32dp</dimen>
-    <dimen name="dp_px_1024">696.32dp</dimen>
-    <dimen name="dp_px_1080">734.4dp</dimen>
-    <dimen name="dp_px_1200">816dp</dimen>
-    <dimen name="dp_px_1250">850dp</dimen>
-    <dimen name="dp_px_1920">1305.6dp</dimen>
+    <string name="MODEL"> D2_s, T2_s </string>
+    <dimen name="dp_px_1">0.675dp</dimen>
+    <dimen name="dp_px_200">135dp</dimen>
+    <dimen name="dp_px_300">202.5dp</dimen>
+    <dimen name="dp_px_924">623.7dp</dimen>
+    <dimen name="dp_px_1024">691.2dp</dimen>
+    <dimen name="dp_px_1080">729dp</dimen>
+    <dimen name="dp_px_1200">810dp</dimen>
+    <dimen name="dp_px_1250">843.75dp</dimen>
+    <dimen name="dp_px_1920">1296dp</dimen>
 </resources>
