@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MODEL"> K2_mini </string>
+    <dimen name="dp_px_1">0.75dp</dimen>
+    <dimen name="dp_px_200">150dp</dimen>
+    <dimen name="dp_px_300">225dp</dimen>
+    <dimen name="dp_px_924">693dp</dimen>
+    <dimen name="dp_px_1024">768dp</dimen>
+    <dimen name="dp_px_1080">810dp</dimen>
+    <dimen name="dp_px_1200">900dp</dimen>
+    <dimen name="dp_px_1250">937.5dp</dimen>
+    <dimen name="dp_px_1920">1440dp</dimen>
+</resources>
