@@ -3,24 +3,22 @@ package com.example.screentest
 import android.content.Intent
 import android.graphics.Point
 import android.os.Build
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.util.Log
-import androidx.appcompat.app.AppCompatActivity
+import android.view.LayoutInflater
 import androidx.databinding.DataBindingUtil
-import com.example.screentest.databinding.ActivityMainBinding
+import com.example.screentest.databinding.ActivityMain3Binding
 import kotlin.math.sqrt
 
+class MainActivity3 : AppCompatActivity() {
+    lateinit var binding: ActivityMain3Binding
 
-class MainActivity : AppCompatActivity() {
-
-    lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        KioskPresentation.mode = KioskMode.Logo
-
+        setContentView(R.layout.activity_main3)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main3)
 
         val display = windowManager.defaultDisplay // in case of Activity
 /* val display = activity!!.windowManaver.defaultDisplay */ // in case of Fragment
@@ -64,6 +62,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,MainActivity2::class.java)
             startActivity(intent)
         }
-
     }
 }
