@@ -1,11 +1,14 @@
 package com.example.screentest
 
+import android.app.Presentation
 import android.content.Intent
 import android.graphics.Point
+import android.hardware.display.DisplayManager
 import android.os.Build
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.util.Log
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.screentest.databinding.ActivityMainBinding
@@ -15,12 +18,27 @@ import kotlin.math.sqrt
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
+    var displayManager = this.getSystemService(DISPLAY_SERVICE) as DisplayManager
+    var presentationDisplays =
+        displayManager.getDisplays(DisplayManager.DISPLAY_CATEGORY_PRESENTATION)
+
+
+    @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         KioskPresentation.mode = KioskMode.Logo
 
+
+        if (presentationDisplays.size > 0) {
+            // If there is more than one suitable presentation display, then we could consider
+            // giving the user a choice.  For this example, we simply choose the first display
+            // which is the one the system recommends as the preferred presentation display.
+            val display = presentationDisplays[0]
+            val presentation: Presentation = KioskPresentation(this, this.display)
+            presentation.show()
+        }
 
         val display = windowManager.defaultDisplay // in case of Activity
 /* val display = activity!!.windowManaver.defaultDisplay */ // in case of Fragment
