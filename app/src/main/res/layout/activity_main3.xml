@@ -4,18 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity3">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="100dp"
-        android:layout_height="900dp"
+        android:layout_width="900dp"
+        android:layout_height="100dp"
         android:background="@color/black"
-        android:text="100dp\n900dp"
+        android:text="@string/MODEL"
         android:textColor="@color/white" />
 
     <TextView
-        android:layout_width="@dimen/dp_px_100"
-        android:layout_height="@dimen/dp_px_900"
+        android:layout_width="@dimen/dp_px_900"
+        android:layout_height="@dimen/dp_px_100"
+        android:text="dimen\n100dp\n900dp"
         android:background="#FF5656" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="1300dp"
+            android:text="100dp\n1300dp"
+            android:background="#FFEB3B"/>
+
+        <TextView
+            android:layout_width="@dimen/dp_px_100"
+            android:layout_height="@dimen/dp_px_1300"
+            android:text="dimen\n100dp\n1300dp"
+            android:background="#8BC34A"/>
+
+    </LinearLayout>
+
 </LinearLayout>

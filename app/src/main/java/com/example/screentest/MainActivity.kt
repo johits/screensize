@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                 "Smallest Width DP: ${String.format("%.1f", width / (dm.densityDpi / 160.0))}"
         }
         binding.tvName.setOnClickListener {
-            val intent = Intent(this,MainActivity2::class.java)
+            val intent = Intent(this,MainActivity3::class.java)
             startActivity(intent)
         }
 
