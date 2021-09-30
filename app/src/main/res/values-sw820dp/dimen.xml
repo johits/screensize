@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MODEL">K2_mini_kiosk</string>
+    <dimen name="dp_px_300">1dp</dimen>
+    <dimen name="dp_px_800">1dp</dimen>
+    <dimen name="dp_px_1250">1dp</dimen>
+    <dimen name="dp_px_1920">1dp</dimen>
+</resources>

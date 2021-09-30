@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MODEL">K2</string>
+    <dimen name="dp_px_300">249dp</dimen>
+    <dimen name="dp_px_800">664dp</dimen>
+    <dimen name="dp_px_1250">1037.5dp</dimen>
+    <dimen name="dp_px_1920">1593.6dp</dimen>
+</resources>

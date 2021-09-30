@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity() {
         KioskPresentation.mode = KioskMode.Logo
 
 
-        if (presentationDisplays.size > 0) {
+        if (presentationDisplays.size >= 2) {
             // If there is more than one suitable presentation display, then we could consider
             // giving the user a choice.  For this example, we simply choose the first display
             // which is the one the system recommends as the preferred presentation display.
-            val display = presentationDisplays[0]
+            val display = presentationDisplays[1]
             val presentation: Presentation = KioskPresentation(this, this.display)
             presentation.show()
         }
