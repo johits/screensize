@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MODEL">sw955dp</string>
+    <dimen name="dp_px_1">0.88dp</dimen>
+    <dimen name="dp_px_1080">950.4dp</dimen>
+    <dimen name="dp_px_1920">1689.6dp</dimen>
+</resources>

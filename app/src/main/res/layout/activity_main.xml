@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="모델명"
+        android:text="@string/MODEL"
         android:textColor="@color/black"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,5 +111,34 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/tv_sw"
         app:layout_constraintTop_toBottomOf="@+id/tv_sw" />
+
+    <TextView
+        android:id="@+id/tv_loop_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반복문 dp 출력"
+        android:textSize="@dimen/dp_px_30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sw_result"/>
+
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="테스트1"
+        android:textSize="@dimen/dp_px_30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sw_result"/>
+
+    <TextView
+        android:id="@+id/test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_px_20"
+        android:textSize="@dimen/dp_px_50"
+        android:text="테스트2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/test1"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

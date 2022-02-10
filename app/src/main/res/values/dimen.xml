@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="MODEL">D1_IE</string>
+    <string name="MODEL">Default</string>
     <dimen name="dp_px_1">1.00dp</dimen>
     <dimen name="dp_px_2">2.00dp</dimen>
     <dimen name="dp_px_3">3.00dp</dimen>
