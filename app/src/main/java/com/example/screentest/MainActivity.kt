@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 //        Log.e("ddddsssddd---", displayMetrics.heightPixels.toString())
 //        Log.e("dddddddasdasdasddddd---", displayMetrics.widthPixels.toString())
 
-        binding.tvX.setOnClickListener {
+//        binding.tvX.setOnClickListener {
             val resourceId = resources.getIdentifier("navigation_bar_height", "dimen", "android")
             var deviceHeight = 0
             if (resourceId > 0) {
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
             Log.e("dddddddasdasdasddddd---", displayMetrics.widthPixels.toString())
 
             binding.apply {
-//                tvName.text = "모델명: $name"
+                tvName.text = "모델명: ${Build.MODEL}"
                 tvInch.text = "인치: ${String.format("%.1f", screenInches)} inch"
                 tvX.text = "가로: $widthx px (${String.format("%.1f",dpWidth)} dp)"
                 tvY.text = "높이: $heighty px (${String.format("%.1f", dpHeight)} dp)"
@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
                 tvSwResult.text =
                     "Smallest Width DP: ${String.format("%.1f", width / (dm.densityDpi / 160.0))}"
             }
-        }
+//        }
 
 
         binding.tvName.setOnClickListener {
